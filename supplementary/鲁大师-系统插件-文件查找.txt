@@ -1,0 +1,7 @@
+
+sudo dnf install -y mlocate
+sudo updatedb
+
+locate gamegrid
+
+https://www.digitalocean.com/community/tutorials/initial-setup-of-a-fedora-22-server
