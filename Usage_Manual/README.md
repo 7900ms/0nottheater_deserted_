@@ -10,3 +10,4 @@ xfce urxvt tmux zsh
 
 generic 的做法、general 的程序：emacs
 
+[0nottheater_deserted](https://github.com/7900ms/0nottheater_deserted)
