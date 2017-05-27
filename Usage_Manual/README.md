@@ -11,3 +11,5 @@ xfce(DE) urxvt-terminalEmulator zsh-shell tumx
 generic 的做法、general 的程序：emacs
 
 [0nottheater_deserted](https://github.com/7900ms/0nottheater_deserted#fedora)
+
+[四大件](https://github.com/7900ms/0nottheater_deserted/blob/master/book/LXDE-fundamental-安装.txt)
