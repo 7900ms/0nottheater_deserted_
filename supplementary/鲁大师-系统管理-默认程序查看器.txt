@@ -1,0 +1,106 @@
+
+一个程序：
+一个程序是：一个可执行程序，一个二进制文件、一个 X-Client
+一个程序启动方式：executable 的启动就是作为 executable commands 启动
+谁 哪里的一个程序：$PATH 给不同用户
+怎用：带参数 配置文件位置
+
+Linux的程序都是二进制放在 /usr/bin 里
+/usr/bin/whoami
+/usr/bin/which
+/usr/bin/firefox
+/usr/bin/rhythmbox
+/usr/bin/evolution (一个一般程序，GUI的邮件程序)
+/usr/bin/mutt (一个一般程序，text-based的邮件程序)
+/usr/bin/gedit
+/usr/bin/vi
+/usr/bin/pwd
+/usr/bin/wget
+/usr/bin/gnome-system-monitor
+/usr/bin/gnome-terminal
+/usr/bin/echo
+/usr/bin/nautilus
+/usr/bin/gnome-screenshot
+/usr/bin/gnome-session
+/usr/bin/gnome-shell
+/usr/bin/gnome-terminal
+/usr/bin/sudo
+大程序、小程序、桌面环境程序、图像查看程序、文本编辑器，cd命令、pwd命令、下载dnf命令、whoami命令、ssh命令、ps命令、sudo命令、nano命令，有无GUI 是否CLI 是否text-based，都是来自一个二进制程序，一个二进制文件 ———— 都是一个 X-Client
+
+启动的时候都是带参数启动的
+/usr/bin/wget -c /somewhere/config.json
+/usr/bin/gnome-terminal -c /somewhere/config.json -w 1
+
+程序一：路径查看
+路径查看
+/usr/bin/which xxxx
+
+程序二：echo
+/usr/bin echo
+
+/usr/bin/echo $PATH
+/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/user7483/.local/bin:/home/user7483/bin
+
+说明：载入的 可以省略全路径
+/usr/bin/echo $PATH
+/usr/bin/which xxxx
+echo $PATH
+which xxxx
+
+说明：不同的用户，用到的不一样
+user7483 $ echo $PATH
+/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/user7483/.local/bin:/home/user7483/bin
+su # echo $PATH
+/sbin:/bin:/usr/sbin:/usr/bin
+
+说明：
+/bin只是一个快捷方式(软链接), 东西都在 /usr/bin 里
+/bin -> /usr/bin
+/sbin -> /usr/sbin
+
+- - -
+
+whoami:
+whoami
+/usr/bin/whoami
+
+which:
+which
+/usr/bin/which
+
+Rhythmbox:
+rhythmbox
+/usr/bin/rhythmbox
+/usr/share/rhythmbox
+/usr/lib64/rhythmbox
+
+Firefox：
+firefox
+/usr/bin/firefox
+(locate firefox)
+/usr/lib64/firefox/ (程序本身)
+~/.mozilla/firefox/profiles.ini
+~/.mozilla/firefox/fmwuio07.default/** (一个profile)
+/usr/share/applications/firefox.desktop (软件配置和启动参数)
+/usr/share/appdata/firefox.appdata.xml (软件描述)
+
+GNOME Terminal：
+gnome-terminal
+/usr/bin/gnome-terminal
+
+GEdit:
+gedit
+/usr/bin/gedit
+/usr/share/gedit
+/usr/lib64/gedit
+/usr/share/appdata/org.gnome.gedit.appdata.xml (软件描述)
+/usr/share/applications/org.gnome.gedit.desktop (软件配置和启动参数)
+
+Anaconda:
+anaconda
+/usr/bin/anaconda
+/usr/share/anaconda
+
+
+
+-
