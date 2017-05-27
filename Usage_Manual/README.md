@@ -4,8 +4,8 @@
 老四大件：
 fvwm urxvt tmux zsh
 
-新四大件：(含电源管理)
-xfce urxvt tmux zsh
+新4大件(支持电源管理)
+xfce(DE) urxvt-terminalEmulator zsh-shell tumx
 ```
 
 generic 的做法、general 的程序：emacs
