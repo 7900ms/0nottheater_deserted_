@@ -64,7 +64,13 @@ sudo reboot
 
 压缩解压
 
-sudo yum install p7zip zip unzip git nano mlocate
+sudo yum install p7zip zip unzip git nano
+
+文件查找
+
+sudo yum install mlocate
+
+sudo updatedb
 
 8.
 【建立快照】
