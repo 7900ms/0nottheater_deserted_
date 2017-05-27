@@ -1,3 +1,10 @@
+字体下载后放在 `~/.fonts` 里面
+
+执行 `sudo fc-cache` 重建字体缓存
+
+查找字体
+fc-list | grep mono
+
 ```
 
 /supplementary/傲游
