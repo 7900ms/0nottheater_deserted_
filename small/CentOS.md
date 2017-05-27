@@ -13,6 +13,8 @@
 
 不要 lxde: 在 centos 上安装不了 (能安装 xfce)
 
+不要任何 centos 和 xfce 的[奇技淫巧](https://www.v2ex.com/notes/28357)：不够 general usage , 不够 generic
+
 最终凑合用的：CentOS + xfce
 
 -
