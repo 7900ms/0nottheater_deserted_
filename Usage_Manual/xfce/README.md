@@ -20,3 +20,12 @@ sudo reboot
 
 重启 自动进入GUI
 ```
+
+设置 用户免密码登入
+
+sudo vi /etc/gdm/custom.conf 加入
+```
+[daemon]
+AutomaticLoginEnable=True
+AutomaticLogin=sysadmin
+```
