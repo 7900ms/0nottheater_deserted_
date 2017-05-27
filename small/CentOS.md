@@ -1,0 +1,18 @@
+
+不要 windows: 不够零件化 (linux能零件化)
+
+不要 mac: marketing 太恶心
+
+不要 ubunutu: 它不是 RHEL 公司的
+
+不要 Debian 系: 它太跟[网络](https://www.v2ex.com/notes/28380)太近了 (RHEL跟互联网比较远)，linux开发都没人支持 Debian 系, 都是支持 [RHEL 系](https://www.v2ex.com/notes/28390)
+
+不要 fedora: 不是科研人员的标准
+
+不要 centos gnome: 图标太大了,自定义能力不足
+
+不要 lxde: 在 centos 上安装不了 (能安装 xfce)
+
+最终凑合用的：CentOS + xfce
+
+-
