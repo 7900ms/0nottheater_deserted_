@@ -1,5 +1,5 @@
 
-在此，目的被彰显出来，感觉鲜活起来，细节被隐藏起来
+在此，目的被彰显出来，感觉鲜活起来，[细节](https://github.com/7900ms/0nottheater_deserted_/tree/master/Usage_Manual)被隐藏起来
 
 好软件的感觉：按照用电脑的心情，用得痛快
 
