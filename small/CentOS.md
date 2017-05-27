@@ -1,4 +1,6 @@
 
+[会看。](https://github.com/7900ms/000nottheater_deserted_systemlibrary/blob/master/supplementary/slang-粉丝经济.md)
+
 不要 windows: 不够零件化 (linux能零件化)
 
 不要 mac: [marketing](https://github.com/7900ms/000nottheater_deserted_systemlibrary/blob/master/supplementary/slang-MARKETING.md#奇技淫巧+夸夸其谈) 太恶心
