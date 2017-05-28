@@ -14,7 +14,7 @@ yum 系统组件
 
 查看list
 
-源：为了尽 可能保证系统的稳定性，此处大型第三方源只添加 EPEL 源、Nux Dextop 和 ELRepo 源[-](http://seisman.info/linux-environment-for-seismology-research.html)
+源：为了尽 可能保证系统的稳定性，此处大型第三方源只添加 EPEL 源、Nux Dextop 和 ELRepo 源 (~~RPM Fusion、RepoForge~~) [-](http://seisman.info/linux-environment-for-seismology-research.html)
 
 大型软件：商业软件或第三方软件都安装到 /opt 目录下 [-](http://seisman.info/linux-environment-for-seismology-research.html)
 
