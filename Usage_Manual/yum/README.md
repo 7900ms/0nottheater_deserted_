@@ -18,6 +18,8 @@ yum 系统组件
 
 大型软件：商业软件或第三方软件都安装到 /opt 目录下 [-](http://seisman.info/linux-environment-for-seismology-research.html)
 
+源码编译：(一般来说，这类软件的默认安装目录都是 /usr/local ，最终文件会被分别放在 /usr/local 的 bin、lib、share、man 目录下。)不分散走各个目录，指定目录 ./configure --prefix=/opt/xxxx [-](http://seisman.info/how-to-install-softwares-under-centos-7.html)
+
 ```
 
 系统升级 (所有组件更新,linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
