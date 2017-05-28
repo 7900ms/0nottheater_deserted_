@@ -1,5 +1,8 @@
 
 zsh + urxvt
+
+配色问题：
+zsh文字颜色 + urxvt背景色
 ```
 检查区
 
@@ -25,6 +28,20 @@ echo $0
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 nano ~/.zshrc & 打开新tab (打开新tab时会自动source ~/.zshrc)
+
+```
+```
+ZSH_THEME="ys"
+DISABLE_AUTO_UPDATE="true"
+plugins=(git bundler osx rake ruby)
+plugins=(git bower sublime brew history node npm sudo web-search fedora)
+
+## 1st
+DEFAULT_USER=`whoami`
+TZ='Asia/Hong_Kong'; export TZ
+
+```
+```
 
 
 ```
