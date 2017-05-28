@@ -10,3 +10,9 @@ fc-list | grep mono
 /supplementary/傲游
 https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116
 ```
+
+> a font family based
+
+[DejaVuSansMono](http://www.1001fonts.com/dejavu-sans-mono-font.html)
+
+[Source Code Pro](http://www.1001fonts.com/source-code-pro-font.html)
