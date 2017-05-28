@@ -16,3 +16,5 @@ https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116
 [DejaVuSansMono](http://www.1001fonts.com/dejavu-sans-mono-font.html)
 
 [Source Code Pro](http://www.1001fonts.com/source-code-pro-font.html)
+
+[Source Sans Pro](http://www.1001fonts.com/source-sans-pro-font.html)
