@@ -1,4 +1,4 @@
-[字体](https://github.com/7900ms/0nottheater_deserted_/tree/master/Usage_Manual/fonts)
+终端显示中文：用正确的[字体](https://github.com/7900ms/0nottheater_deserted_/tree/master/Usage_Manual/fonts)
 ```
 安装
 sudo yum install rxvt-unicode
