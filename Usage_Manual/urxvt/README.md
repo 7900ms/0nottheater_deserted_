@@ -1,4 +1,7 @@
 终端显示中文：用正确的[字体](https://github.com/7900ms/0nottheater_deserted_/tree/master/Usage_Manual/fonts)
+
+终端字体：文泉驿微米黑mono
+
 ```
 查看区:
 /usr/bin/urxvt
