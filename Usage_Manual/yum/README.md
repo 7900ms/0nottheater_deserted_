@@ -14,6 +14,8 @@ yum 系统组件
 
 查看list
 
+源：为了尽 可能保证系统的稳定性，此处大型第三方源只添加 EPEL 源、Nux Dextop 和 ELRepo 源[-](http://seisman.info/linux-environment-for-seismology-research.html)
+
 ```
 
 系统升级 (所有组件更新,linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
