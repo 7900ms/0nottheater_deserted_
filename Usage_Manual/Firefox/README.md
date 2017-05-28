@@ -12,7 +12,7 @@ locate firefox
 安装位置
 
 /usr/bin/firefox
-(locate firefox)
+(locate firefox, rpm -ql firefox)
 软件
 /usr/lib64/firefox (程序本身)
 软件
