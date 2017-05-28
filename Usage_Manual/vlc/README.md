@@ -12,3 +12,4 @@ sudo yum install vlc
 
 G nux dextop centos 7
 
+为了尽 可能保证系统的稳定性，此处大型第三方源只添加 EPEL 源、Nux Dextop 和 ELRepo 源 [-](https://github.com/7900ms/0nottheater_deserted_/tree/master/Usage_Manual/yum)
