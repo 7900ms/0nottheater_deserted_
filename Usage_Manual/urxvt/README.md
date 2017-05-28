@@ -22,10 +22,10 @@ which urxvt
 #=> /usr/bin/urxvt
 
 vi ~/.xinitrc 空文件加入
-````
+`````
 export LANG=en_GB.UTF-8
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-````
+`````
 source ~/.xinitrc
 
 2.
