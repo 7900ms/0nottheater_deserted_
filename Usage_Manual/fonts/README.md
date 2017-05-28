@@ -20,3 +20,5 @@ https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116
 [Source Sans Pro](http://www.1001fonts.com/source-sans-pro-font.html)
 
 带 楔形勾角 的字体，非常有干扰性，比如 serif
+
+[mono+无勾角](http://www.1001fonts.com/monospaced+sans-serif-fonts.html)
