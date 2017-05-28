@@ -4,3 +4,6 @@ whoami
 logname
 sudo logname
 ```
+
+cat /home/$(logname)/.bashrc
+
