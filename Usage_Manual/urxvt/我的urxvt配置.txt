@@ -1,0 +1,305 @@
+! ~/.Xresources
+!
+! Run ‘xrdb ~/.Xresources’ to properly re-read this file. Check with ‘xrdb -query’
+
+! This is a comment
+!
+! SYNTAX
+! <WM_CLASS>.<optionname>: <value>
+!   Usually urxvt have ‘urxvt’ and ‘URxvt’ as its WM classes.
+!   WM_CLASS in the example above may be:
+!   - ‘rxvt’, then same options derived from rxvt will work for urxvt;
+!   - ‘URxvt’, these options will not work for rxvt.
+! <optionname>: <value>
+!   WM_CLASS will be assumed to terminal.
+! [WM_CLASS]*<optionname>: <value>
+!   Options that have WM_CLASS matching the first WM_CLASS of the window
+!   (which may be set with -name option for urxvt) will take priority.
+!   If no WM_CLASS specfied, then option will match against any WM_CLASS,
+!       i.e. any window.
+! See output of xprop for window class information.
+!
+! All urxvt properties
+! urxvt --help 2>&1| sed -n '/: /s/^ */! URxvt*/gp'
+! urxvt --help 2>&1| sed -n '/: /s/^ */! URxvt./gp'
+!
+
+! /supplementary/傲游
+! https://github.com/deterenkelt/dotfiles/blob/master/.Xresources
+! https://github.com/ornicar/dotfiles/blob/master/Xresources
+! https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
+! G URxvt.scrollstyle: rxvt
+! https://gist.github.com/yevgenko/1167205 *
+! https://gist.github.com/whit/1307597 *
+!
+! 搜索 urxvt --help 2>&1 | grep cursor
+! 复制粘贴
+! ctrl+alt+c, ctrl+alt+v
+
+!! tab (未启用)
+! 新标签 Shift+Down
+! 关闭标签 Ctrl+d 
+!! tab (tmux)
+!
+
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
+
+!-- URxvt settings -- !
+
+URxvt.termName:             rxvt-unicode
+URxvt.depth:                32
+URxvt.geometry:             90x20
+URxvt.loginShell:           true
+URxvt.lineSpace: 3
+
+URxvt.modifier: alt
+
+! inputMethod
+!URxvt.inputMethod: ibus
+!!URxvt.preeditType: OverTheSpot ! -- 输入法样式:跟随。可选：OverTheSpot(跟随), Root(置底), None(不显示), OffTheSpot, OnTheSpot 后两种不是所有的都支持，可写多个，也可以不写。建议不写 -> do not specify a preeditStyle https://linux.die.net/man/7/urxvt
+
+!! Larger history limit
+URxvt*saveLines: 12000
+
+!! skipScroll
+! -> http://www.askapache.com/linux/rxvt-xresources/
+URxvt*skipScroll:  true
+
+! others -> http://www.askapache.com/linux/rxvt-xresources/ , https://github.com/lgaggini/dotfiles/blob/master/.Xresources
+URxvt*visualBell:  false ! -- disable it to avoid screen blinking
+URxvt*urgentOnBell: true !
+URxvt*print-pipe:  cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+URxvt*insecure: false
+URxvt*hold: false
+
+!-- URxvt transparency -- !
+!! shading - 0 to 99 darkens, 101 to 200 lightens.
+!! Dont use with tintColor, just use a darker or lighter color instead. -> https://linux.die.net/man/1/urxvt
+!URxvt*transparent:   true
+!URxvt*shading:       20
+
+! -- Fonts -- !
+
+!编程等宽字体:
+!易于区分 “1”、“i” 和“l”
+!易于区分 “0”、“o” 和“O”
+!易于区分中文下的左引号和右引号
+!不借助 unicode 符号
+!http://seisman.info/linux-environment-for-seismology-research.html#Source Code Pro
+
+!URxvt*font: xft:Meslo LG S DZ for Powerline:style=Regular:pixelsize=14:antialias=true
+!URxvt*font: xft:Monospace:style=Regular:pixelsize=14:antialias=true
+!URxvt*boldFont: xft:Monospace:style=Bold:pixelsize=14:antialias=true
+!URxvt*font: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true
+!URxvt*boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=14:antialias=true
+URxvt*font: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei Mono:style=Regular:pixelsize=14:antialias=true
+URxvt*boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei Mono:style=Regular:pixelsize=14:antialias=true
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! -- Scrollbar -- !
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+!! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt.scrollstyle:next
+!URxvt.thickness:15
+!URxvt.scrollColor:#5D6262
+
+URxvt.mouseWheelScrollPage:False ! -- scroll page by page
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+
+! -- Border -- !
+URxvt.borderLess: False
+URxvt.internalBorder: 3
+URxvt.externalBorder: 0
+
+! -- Cursor and Pointer -- !
+URxvt.cursorUnderline:      Flase
+URxvt.cursorBlink:          True
+URxvt.pointerBlank:         Flase
+
+! -- tab -- !
+! tmux
+
+! -- (register) Perl extensions -- !
+! Perl extensions dir /usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
+!URxvt.perl-lib: /usr/lib/urxvt/perl/
+!URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
+! newly installed => fullscreen
+
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,selection,selection-autotransform,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size,tabbedex
+
+! -- DEPRECATED : vtwheel, url-select(replaced by matcher), clipboard(replaced by selection-to-clipboard)
+! -- Download
+! cd /usr/lib64/urxvt/perl/
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/fullscreen
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/font-size
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/tabbedex
+!
+! -- readline
+! -- For moving the text cursor to where clicking shift-left + left mouse button
+! (default)
+! -- matcher
+! -- For opening urls with browser. Just one click on url, it will automatically open in browser.
+URxvt.matcher.button: 1
+URxvt.url-launcher: /usr/bin/firefox
+! -- tabbed
+! -- For a simple tab control
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 1
+URxvt.tabbed.tab-bg: 0
+! -- tabbedex
+URxvt.tabbed.new-button:true
+URxvt.keysym.C-t:perl:tabbedex:new_tab
+URxvt.tabbed.tab_title: true
+URxvt.tabbed.autohide: true
+URXvt.tabbed.reopen-on-close:   ture
+URxvt.keysym.S-Right:   perl:tabbedex:next_tab
+URxvt.keysym.S-Left:    perl:tabbedex:prev_tab
+URxvt.keysym.C-S-Left: perl:tabbex:move_tab_left
+URxvt.keysym.C-S-Right: perl:tabbex:move_tab_right
+URxvt.keysym.S-Up: perl:tabbedex:rename_tab
+!! keysym.S-Down:perl:tabbedex:new_tab ! -- 默认 + 写定的 不能改
+!! keysym.C-d:perl:tabbedex:close_tab  ! -- 默认 + 写定的 不能改或增加绑定
+URxvt.tabbed.title-fg:1
+URxvt.tabbed.title-bg:0
+! -- selection-to-clipboard
+! -- For adding to PRIMARY clipboard when selecting a word with mouse
+URxvt.clipboard.autocopy: true
+! -- mouse click selection pattern
+! -- For mouse click to select the proper range of words. https://linux.die.net/man/7/urxvt
+URxvt.selection.pattern-0: ([[:word:]]+)
+URxvt.selection.pattern-1: ([[:word:]-,./?%&#_=+@~]+)
+URxvt.selection.pattern-2: ([[:word:]-,./?%&#:_=+@~]+)
+!URxvt.selection.pattern-2: ( at .*? line \\d+)
+!URxvt.selection.pattern-3: ^(/[^:]+):\
+!URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/:e \\Q$1\\E\\x0d:$2\\x0d/
+!URxvt.selection-autotransform.1: s/^ at (.*?) line (\\d+)$/:e \\Q$1\\E\\x0d:$2\\x0d/
+! -- fullscreen
+! -- For into fullscreen mode. Trigger key: F11
+URxvt.keysym.F11: perl:fullscreen:switch
+! -- font-size
+URxvt.font-size.step: 1
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+
+! -- Color Scheme -- !
+
+! man pages
+URxvt.colorIT:       #87af5f
+URxvt.colorBD:       #d7d7d7
+URxvt.colorUL:       #87afd7
+URxvt*underlineColor:#87afd7
+!URxvt.colorUL:       yellow
+!URxvt*underlineColor:yellow
+
+!# Most Xorg terminals, including xterm and urxvt, support at least 16 basic colors. The colors 0-7 are the 'normal' colors. Colors 8-15 are their 'bright' counterparts, used for highlighting. These colors can be modified through X resources, or through specific terminal settings. For example:
+
+!!Source http://github.com/altercation/solarized, https://gist.github.com/yevgenko/1167205
+
+*background: #002b36
+*foreground: #657b83
+*fading: 40
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!! black dark/light
+*color0: #073642
+*color8: #002b36
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #586e75
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #839496
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #93a1a1
+
+!! white dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
+
+! --------------------------------------------------------- !
+
+! -- Color Scheme 2 -- !
+!
+! 蓝白色 https://www.reddit.com/r/unixporn/comments/4rdjmh/terminal_color_schemes/#pjhalsli1
+
+![colors]
+!# special
+*foreground     : #ffffff
+*cursorColor    : #ffffff
+!*background     : #151515
+!*background       :rgba(21, 21, 21, 0.84)
+*background     : #292929
+*fading: 30 ! -- percentage of fading on unfocused
+*fadeColor: #252525
+! -- 纯色 ---
+!0/8纯黑
+!1白
+!2蓝
+!3白
+!4灰
+!5亮蓝 ✓(25)
+!6白
+!7白
+!8纯黑
+! -- 纯色 ---
+!# black
+*color0 : #252525
+*color8 : #252525
+!# red
+*color1 : #f8f8f8
+*color9 : #f8f8f8
+!# green
+*color2 : #0084FF
+*color10: #0084FF
+!# yellow
+*color3 : #f7f7f7
+*color11: #f7f7f7
+!# blue
+*color4 : #606060
+*color12: #606060
+!# magenta
+*color5 : #0084FF
+*color13: #0084FF
+!# cyan
+*color6 : #e2e2e2
+*color14: #e2e2e2
+!# white
+*color7 : #ffffff
+*color15: #ffffff
