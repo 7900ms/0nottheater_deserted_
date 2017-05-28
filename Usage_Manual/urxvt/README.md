@@ -22,10 +22,10 @@ which urxvt
 #=> /usr/bin/urxvt
 
 vi ~/.xinitrc 空文件加入
-
+`
 export LANG=en_GB.UTF-8
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-
+`
 source ~/.xinitrc
 
 2.
@@ -46,13 +46,13 @@ urxvt -fn "xft:monospace:size=14:antialias=true"
 配置测试
 
 vi ~/.Xresources
-````
+`
 URxvt.font: xft:Monospace:style=Regular:size=14:antialias=true
 URxvt.scrollBar:True
 URxvt.scrollBar_right:True
 URxvt.scrollBar_floating:False
 URxvt.scrollstyle:next
-````
+`
 
 生效
 xrdb ~/.Xresources
