@@ -27,6 +27,7 @@ yum check-update
 yum update
 
 源
+yum repolist all
 sudo yum install epel-release
 
 安装软件
