@@ -72,6 +72,8 @@ sudo yum install mlocate
 
 sudo updatedb
 
+locate curl
+
 8.
 【建立快照】
 
