@@ -1,3 +1,6 @@
+yum 系统组件
+
+```
 
 系统升级
 yum check-update
@@ -10,7 +13,7 @@ sudo yum install epel-release
 yum info git (installed)
 yum info wget(available)
 sudo yum install wget
-sudo yum --enablerepo=base install wget
+sudo yum --disablerepo=* --enablerepo=base install wget
 
 安装组
 yum grouplist
@@ -21,3 +24,4 @@ yum groupinfo "Development Tools"
 sudo yum --enablerepo=base groupinstall xfce
 
 
+```
