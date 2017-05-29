@@ -1,0 +1,9 @@
+
+为什么不选择 xxxx
+(做好心理准备)
+1. 依赖 X window => 会被绑定在 Desktop ENV 上
+2. 不够零件化 => 不够简单，一旦依赖则不能更换
+            => 没有分成一小小块 => 配置不能恰到好处，配好一个太麻烦了，太大块了
+3. 更像一个 application => 一方面 不够 universal 不够强大，软件过于简单 躁动的用户太多(不能configue/customizeEverything)；另一方面 不够mini light-wight 占用资源和内存太多了 依赖东西太多了，带不动老机子lowEndMachine(只适配powerfulMachine)
+
+-
