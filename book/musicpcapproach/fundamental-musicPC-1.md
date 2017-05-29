@@ -1,3 +1,5 @@
+aka CentOS-fundamental-安装.md
+
 ```
 检测区
 
