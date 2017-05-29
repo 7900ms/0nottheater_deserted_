@@ -1,3 +1,5 @@
+“[民用系统](https://github.com/7900ms/00nottheater_deserted/tree/master/small)”
+
 aka CentOS-fundamental-安装.md
 
 ```
