@@ -4,7 +4,7 @@ music pc
 
 #### 预装软件
 
-xfce, mlocate
+xfce, mlocate, wget <br>
 记录地点 - 电脑上都安了什么软件 写一个放一个
 
 #### 终端软件
