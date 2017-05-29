@@ -8,7 +8,9 @@
 [-](https://github.com/7900ms/0nottheater_deserted/tree/master/supplementary)
 
 = = =
-when heavy-heart 内部核心 是强大的
 
-when light-heart 外部外围 是好用的,简单的
+when heavy-heart 内部核心 是强大的 (/Usage_Manual)
+
+when light-heart 外部外围 是好用的,简单的 (/supplementary)
+
 = = =
