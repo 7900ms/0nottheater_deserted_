@@ -68,7 +68,7 @@ sudo reboot
 
 压缩解压
 
-sudo yum install p7zip zip unzip git nano
+sudo yum install p7zip zip unzip git nano wget
 
 文件查找
 
