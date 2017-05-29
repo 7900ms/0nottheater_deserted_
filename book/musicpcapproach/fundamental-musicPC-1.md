@@ -4,6 +4,17 @@ music pc
 
 #### 预装软件
 
+xfce, mlocate
+记录地点 - 电脑上都安了什么软件 写一个放一个
+
+#### 终端软件
+
+urxvt
+
+zsh
+
+#### 平台
+
 python
 
 ruby
