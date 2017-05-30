@@ -4,6 +4,8 @@ aka CentOS-fundamental-安装.md + 成型阶段划分
 
 毛坯系统 -> 基本系统(systemEnhancement) -> 家用系统之外的其他系统(musicPC)
 
+注意：重心放在 用linux的通用的部分, 而不是 发行版特性 那无关紧要
+
 <hr>
 
 ### 毛坯系统
