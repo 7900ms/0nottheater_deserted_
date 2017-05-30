@@ -1,6 +1,12 @@
 “[民用系统](https://github.com/7900ms/00nottheater_deserted/tree/master/small)”
 
-aka CentOS-fundamental-安装.md
+aka CentOS-fundamental-安装.md + 成型阶段划分
+
+毛坯系统 -> 基本系统(systemEnhancement) -> 家用系统之外的其他系统(musicPC)
+
+<hr>
+
+### 毛坯系统
 
 ```
 检测区
@@ -97,17 +103,12 @@ https://wpguru.co.uk/2015/07/how-to-install-parallels-tools-via-the-command-line
 http://www.cnblogs.com/ghj1976/p/4114759.html
 
 ```
+<hr>
+
+### 基本系统
 
 ```
-结果区：
-- 没有 ‘音乐电脑用不上’ 的东西
-- 为了 musicPC 的目的(而装配的机器)，没有多余的东西(零件)
-- 没有 ‘音乐电脑离了它 也行’ 的东西
-
-musicPC
-
 (必须知道电脑上都安了什么软件。写一个放一个) ~/Library/Application Support/XMenu/Custom/Programs 安完大约18G
-
 ```
 
 #### 鼠标
