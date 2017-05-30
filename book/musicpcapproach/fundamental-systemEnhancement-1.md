@@ -68,7 +68,7 @@ sudo reboot
 
 压缩解压
 
-sudo yum install p7zip zip unzip git nano wget
+sudo yum install p7zip zip unzip git nano wget mlocate
 
 文件查找
 
@@ -87,18 +87,6 @@ locate curl
 9.
 虚拟机增强
 
-设置 用户免密码登入
-
-sudo vi /etc/gdm/custom.conf 加入
-
-[daemon]
-AutomaticLoginEnable=True
-AutomaticLogin=sysadmin
-
-
-
-
-10.
 安装虚拟机增强
 mkdir /media/cdrom
 mount -o exec /dev/cdrom /media/cdrom
@@ -109,3 +97,56 @@ https://wpguru.co.uk/2015/07/how-to-install-parallels-tools-via-the-command-line
 http://www.cnblogs.com/ghj1976/p/4114759.html
 
 ```
+
+```
+结果区：
+- 没有 ‘音乐电脑用不上’ 的东西
+- 为了 musicPC 的目的(而装配的机器)，没有多余的东西(零件)
+- 没有 ‘音乐电脑离了它 也行’ 的东西
+
+musicPC
+
+(必须知道电脑上都安了什么软件。写一个放一个) ~/Library/Application Support/XMenu/Custom/Programs 安完大约18G
+
+```
+
+#### 鼠标
+
+触摸板
+锁屏时间
+屏幕保护
+任务栏/菜单栏位置和样式
+
+#### 资源管理器
+
+资源管理器树形结构
+xfce thunar
+
+#### 输入法
+
+#### 开机登入
+
+设置 用户免密码登入
+
+sudo vi /etc/gdm/custom.conf 加入
+```
+[daemon]
+AutomaticLoginEnable=True
+AutomaticLogin=sysadmin # 当前用户名
+```
+
+#### locale
+```
+sudo nano /etc/profile 加入
+
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
+```
+
+#### 浏览器
+
+[flash]
+
+#### links文件夹
+
+
