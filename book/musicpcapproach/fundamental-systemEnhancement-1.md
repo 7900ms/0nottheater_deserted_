@@ -175,9 +175,8 @@ export LANG=en_US.UTF-8
 [flash]
 
 #### links文件夹
-
+```
 mkdir /home/$(logname)/Desktop/links
 cd links
-
-
+```
 
