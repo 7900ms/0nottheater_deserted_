@@ -31,6 +31,14 @@ CentOS7 xfce
 2.
 设置用户
 
+设置 SELinux (不动)
+> sestatus (CentOS7 默认开启)
+> nano /etc/selinux/config
+
+设置 防火墙 (跳过)
+> sudo systemctl status firewalld
+参考 https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
+
 3.
 第一次
 进入系统, 通过使用协议
@@ -38,12 +46,28 @@ CentOS7 xfce
 
 yum check-update
 sudo yum install epel-release
+yum info yum-axelget
 sudo yum install yum-axelget
 sudo yum update
 
 4.
 locale (跳过)
 
+4.
+时区
+sudo timedatectl list-timezones | grep Asia
+sudo timedatectl set-timezone Asia/Taipei
+sudo timedatectl set-timezone Australia/Adelaide
+
+时区同步
+sudo yum install ntp
+sudo systemctl status ntpd
+sudo systemctl start ntpd
+sudo systemctl status ntpd
+sudo systemctl enable ntpd # 开机自启
+
+Swap
+参考 https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
 
 5.
 【建立快照】
@@ -76,7 +100,7 @@ sudo reboot
 
 压缩解压
 
-sudo yum install p7zip zip unzip git nano wget mlocate
+sudo yum install p7zip zip unzip git nano wget mlocate htop trash-cli
 
 文件查找
 
@@ -151,5 +175,9 @@ export LANG=en_US.UTF-8
 [flash]
 
 #### links文件夹
+
+mkdir /home/$(logname)/Desktop/links
+cd links
+
 
 
