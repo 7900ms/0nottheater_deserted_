@@ -38,7 +38,7 @@ plugins=(git bower sublime brew history node npm sudo web-search fedora)
 
 ## 1st
 DEFAULT_USER=`whoami`
-TZ='Asia/Hong_Kong'; export TZ
+TZ='Asia/Taipei'; export TZ
 
 ```
 ```
