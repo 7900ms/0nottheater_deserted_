@@ -15,7 +15,7 @@ chsh -l
 which zsh
 
 sudo yum install zsh
-(rpm -ql zsh)
+(rpm -ql zsh 查看都安装了啥)
 chsh -l
 su -c "echo $(which zsh) >> /etc/shells"
 chsh -l
