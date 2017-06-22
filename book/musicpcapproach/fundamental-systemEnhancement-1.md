@@ -34,6 +34,7 @@ CentOS7 xfce
 设置 SELinux (不动)
 > sestatus (CentOS7 默认开启)
 > nano /etc/selinux/config
+ref https://www.v2ex.com/t/369853
 
 设置 防火墙 (跳过)
 > sudo systemctl status firewalld
