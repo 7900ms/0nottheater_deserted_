@@ -12,3 +12,5 @@ sudo systemctl start ntpd
 sudo systemctl status ntpd
 sudo systemctl enable ntpd # 开机自启
 ```
+
+[一般格式(的测试)](https://www.v2ex.com/t/370230)
