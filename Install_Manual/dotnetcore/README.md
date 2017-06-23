@@ -1,3 +1,3 @@
 
-https://www.microsoft.com/net/core#linuxredhat
+https://www.microsoft.com/net/core#linuxcentos
 
