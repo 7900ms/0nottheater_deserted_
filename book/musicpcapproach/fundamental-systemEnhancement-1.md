@@ -10,7 +10,7 @@ aka CentOS-fundamental-安装.md + 成型阶段划分
 
 ### 毛坯系统
 
-（默认 CentOS + xfce）
+（默认 CentOS + xfce + Thunar 资源管理器）
 ```
 检测区
 
