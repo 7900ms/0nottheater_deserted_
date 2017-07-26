@@ -1,0 +1,4 @@
+
+#
+alias la='ls -la'
+alias o='xdg-open .'
