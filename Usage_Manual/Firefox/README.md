@@ -27,3 +27,6 @@ locate firefox
 /usr/share/xfce4/helpers/firefox.desktop
 
 ```
+
+显示程序菜单 alt
+
