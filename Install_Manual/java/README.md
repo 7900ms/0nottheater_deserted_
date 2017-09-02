@@ -17,6 +17,10 @@
 java -version
 javac -version
 
+版本
+jdk1.8.0_131
+http://www.thegeekstuff.com/2017/06/java-8-jre-jdk-install/
+
 sudo alternatives --config java
 
 ```
