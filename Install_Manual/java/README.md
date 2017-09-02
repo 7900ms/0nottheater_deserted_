@@ -16,6 +16,7 @@
 
 java -version
 javac -version
+ls -l /usr/java/
 
 版本
 jdk1.8.0_131
