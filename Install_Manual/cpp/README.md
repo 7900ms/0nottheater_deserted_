@@ -3,8 +3,11 @@
 `sudo yum install gcc gcc-c++.x86_64`
 
 使用
+- 编译文件
+`g++ main.cpp -o a.out`
 
-g++ main.cpp -o a.out
+- 运行文件
+`./a.out`
 
 
 参考1
