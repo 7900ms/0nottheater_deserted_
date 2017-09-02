@@ -1,7 +1,7 @@
 
 安装
 - 安装
-`sudo yum install ?`
+`sudo yum install ? jdk`
 
 使用
 - 编译文件
