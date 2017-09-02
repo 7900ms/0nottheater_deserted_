@@ -11,3 +11,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-a
 
 
 -
+
+
+G run java command line linux
+G run java
