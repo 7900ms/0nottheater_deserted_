@@ -4,7 +4,7 @@
 G 科研 linux 设置
 ```
 tar -xvf xxxx.tgz
-./configure --prefix=/opt/xxxx
+./configure --prefix=/opt/xxxx   (/users/0/axxxxxxx/local/opt)
 make
 sudo make install
 
