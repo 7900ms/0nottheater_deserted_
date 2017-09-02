@@ -1,6 +1,6 @@
 
 安装
-sudo yum install gcc-c++.x86_64
+`sudo yum install gcc gcc-c++.x86_64`
 
 使用
 
