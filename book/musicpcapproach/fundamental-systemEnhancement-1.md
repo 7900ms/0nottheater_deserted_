@@ -35,8 +35,9 @@ CentOS7 xfce
 设置 SELinux (不动)
 > sestatus (CentOS7 默认开启)
 > nano /etc/selinux/config
+SELINUX=disabled # 启用(不推荐):SELINUX=enforcing
 ref https://www.v2ex.com/t/369853
-
+ref http://blog.csdn.net/lanchunhui/article/details/50924239
 设置 防火墙 (跳过)
 > sudo systemctl status firewalld
 参考 https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
