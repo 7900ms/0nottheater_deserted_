@@ -34,10 +34,21 @@ CentOS7 xfce
 2.
 设置用户
 
-设置 SELinux (不动)
-> sestatus (CentOS7 默认开启)
+设置 SELinux 
+默认状态
+> sestatus # enabled
 > nano /etc/selinux/config
-SELINUX=disabled # 启用(不推荐):SELINUX=enforcing
+`
+SELINUX=enforcing
+SELINUXTYPE=targeted
+`
+推荐设置
+> nano /etc/selinux/config
+`
+SELINUX=disalbed
+SELINUXTYPE=targeted
+`
+
 ref https://www.v2ex.com/t/369853
 ref http://blog.csdn.net/lanchunhui/article/details/50924239
 设置 防火墙 (跳过)
