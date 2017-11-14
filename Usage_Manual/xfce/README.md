@@ -29,3 +29,9 @@ sudo vi /etc/gdm/custom.conf 加入
 AutomaticLoginEnable=True
 AutomaticLogin=sysadmin
 ```
+
+
+```
+LXDE 支持 Fedora
+Xfce 支持 Fedora, CentOS
+```
