@@ -55,6 +55,9 @@ ref http://blog.csdn.net/lanchunhui/article/details/50924239
 > sudo systemctl status firewalld
 参考 https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-centos-7-servers
 
+网络测试
+> curl -I http://google.com
+
 3.
 第一次
 进入系统, 通过使用协议
