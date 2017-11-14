@@ -32,6 +32,6 @@ AutomaticLogin=sysadmin
 
 
 ```
-LXDE 支持 Fedora
+LXDE 支持 Fedora  ( LXDE is not in the official centos repos, nor is it in EPEL )
 Xfce 支持 Fedora, CentOS
 ```
