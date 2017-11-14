@@ -60,6 +60,7 @@ ref http://blog.csdn.net/lanchunhui/article/details/50924239
 进入系统, 通过使用协议
 重启
 
+yum info firefox
 yum check-update
 sudo yum install epel-release
 yum info yum-axelget
