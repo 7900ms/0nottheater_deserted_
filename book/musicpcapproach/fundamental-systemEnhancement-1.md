@@ -27,7 +27,7 @@ CentOS7 xfce
 
 下载 CentOS-7-x86_64-Minimal-1611.iso  (0.7G)
 
-设置：语言、时区、组件(mininal)、打开网络(Installation Summary)
+设置：语言、时区、组件(mininal)、打开【 网络(Installation Summary) 】 
 设置：一般用户 (uesr7483，密码]，加入administrator组)
 设置：root用户 (密码1)
 
