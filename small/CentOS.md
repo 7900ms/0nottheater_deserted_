@@ -21,10 +21,11 @@
 
 -
 
+```
 版本
 Minimal ISO - 0.8G (no desktop environment)
 DVD ISO - 4.2G
 Everything ISO - 8G
-
+```
 
 -
