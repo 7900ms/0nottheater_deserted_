@@ -43,7 +43,7 @@ CentOS7 xfce
 SELINUX=enforcing
 SELINUXTYPE=targeted
 `
-推荐设置
+推荐关闭selinux
 > nano /etc/selinux/config
 `
 SELINUX=disalbed
