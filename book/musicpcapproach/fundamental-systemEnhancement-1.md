@@ -38,11 +38,13 @@ CentOS7 xfce
 设置 SELinux 
 默认状态
 > sestatus # enabled
-> nano /etc/selinux/config
+> cat /etc/selinux/config
 `
 SELINUX=enforcing
 SELINUXTYPE=targeted
 `
+
+
 推荐关闭selinux
 > nano /etc/selinux/config
 `
