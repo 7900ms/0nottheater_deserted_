@@ -7,7 +7,7 @@ when heavy-heart 内部核心
 fvwm urxvt tmux zsh
 
 新4大件(支持电源管理)
-xfce(DE) urxvt-terminalEmulator zsh-shell tumx
+xfce(DE) urxvt-terminalEmulator zsh-shell tmux
 ```
 
 generic 的做法、general 的程序：emacs
